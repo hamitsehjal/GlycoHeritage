@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: "class",
   content: [
@@ -7,11 +8,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        burtons: "burtons",
-        poppins: ["Poppins", "sans-serif"],
+      colors: {
+        primary: "#3d9970",
+        secondary: "#2ecc40",
+        accent: "#f00b51",
+        background: "#001f3f",
       },
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 };
